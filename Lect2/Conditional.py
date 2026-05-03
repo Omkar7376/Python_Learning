@@ -1,0 +1,34 @@
+#if
+age = 18
+
+if(age >= 18):
+    print("Eligible to vote.")
+
+#elif
+light = "green"
+
+if(light == "red"):
+    print("Stop")
+
+elif(light == "green"):
+    print("go")
+
+else:
+    print("Look")
+
+#Example
+
+marks = float(input("Enter Marks : "))
+
+if(marks >= 90):
+    print("Grade A")
+
+elif(marks >= 80 and marks < 90):
+    print("Grade B")
+
+elif(marks >= 70 and marks < 80):
+    print("Grade C")
+
+else:
+    print("Grade D")
+

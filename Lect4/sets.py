@@ -1,4 +1,4 @@
-set = {1,2,3,4,5,5,5,5}
+set = {1,2,3,4}
 print(set)
 print(len(set))
 
@@ -11,7 +11,11 @@ print(set)
 # set.clear()
 # print(set)
 
-set2 = {7,8,2,3,9}
-print(set.union(set2))
+set2 = {3,4,5,6}
+print("\n",set.union(set2))
 
-print(set.intersection(set2))
+print("\n",set.intersection(set2))
+
+print("\n",set.difference(set2))
+
+print("\n",set.symmetric_difference(set2))
